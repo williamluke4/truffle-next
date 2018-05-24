@@ -1,4 +1,4 @@
-<h1 align="center">Truffle and Next.js</h1> <br>
+<h1 align="center">Truffle and Next.ts</h1> <br>
 <p align="center">
   <img alt="comet" src="https://user-images.githubusercontent.com/943555/33169670-574322ee-cffa-11e7-9150-7b720ee0ee24.png" width="120">
 </p>
@@ -22,7 +22,7 @@ There are two major features:
 
 - A Next.js project resides in the `client` directory with a symlink to the output folder of the contract ABI definitions. The Next.js app also provides a simple skeleton for connecting to and interacting with the smart contract on a network.
 
-For more information on how the frontend works, go read the [README.md](https://github.com/adrianmcli/truffle-next/blob/master/client/README.md) located in the `client` directory.
+For more information on how the frontend works, go read the [README.md](https://github.com/williamluke4/truffle-next-ts/blob/master/client/README.md) located in the `client` directory.
 
 ## Installation
 
@@ -33,7 +33,7 @@ For more information on how the frontend works, go read the [README.md](https://
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```bash
-    truffle unbox adrianmcli/truffle-next
+    truffle unbox williamluke4/truffle-next-ts
     ```
 
 3. Run the development console.
